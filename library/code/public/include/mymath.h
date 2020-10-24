@@ -1,5 +1,5 @@
-#ifndef IX_MATH_HEADER
-#define IX_MATH_HEADER
+#ifndef MATH_HEADER
+#define MATH_HEADER
 
 #define EXPORT __attribute__((__visibility__("default")))
 
@@ -19,4 +19,4 @@ typedef struct
 
 EXPORT result_t compute(double a, double b, operation o);
 
-#endif
+#endif //!MATH_HEADER
